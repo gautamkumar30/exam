@@ -4,6 +4,7 @@ const router: Router = Router();
 
 router.get("/1b", async (req, res) => {
   res.send(`
+    <pre><code>
 Three Machines:
 
 vi /etc/hosts
@@ -53,6 +54,7 @@ On Frontend:
 
 su - oneadmin
 onehost list
+    </code></pre>
   `);
 });
 
